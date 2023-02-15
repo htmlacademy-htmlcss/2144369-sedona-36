@@ -2,28 +2,28 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/ptsans-400.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("/fonts/ptsans-700.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "PT Sans";
   font-style: italic;
   font-weight: 400;
-  src: url("/fonts/ptsans-400.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "PT Sans";
   font-style: italic;
   font-weight: 700;
-  src: url("/fonts/ptsans-700.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 body {
@@ -31,7 +31,7 @@ body {
   font-size: 24px;
   line-height: 28px;
   color: #242424;
-  background-color: #fbf7f4;
+  background-color: #F2F2F2;
 }
 .navigation-button {
   font-family: "PT Sans";
@@ -128,8 +128,8 @@ body {
 .hero {
   color: #000000;
   background-color: #ffffff;
-  background-image: url("/images/sedona/index-background.jpg");
-  background-size: 1200 485;
+  background-image: url("../images/sedona/index-background.jpg");
+  background-size: 1200px 485px;
   background-repeat: no-repeat;
   text-align: center;
 }
@@ -252,8 +252,8 @@ body {
     line-height: 36px;
     font-weight: 700;
     color: #FFFFFF;
-    background-image: url("/images/sedona/subscribe.jpg");
-    background-size: 1200, 415;
+    background-image: url("../images/sedona/subscribe.jpg");
+    background-size: 1200px, 415px;
     background-repeat: no-repeat;
     text-align: center;
     text-transform: uppercase;
@@ -301,8 +301,8 @@ body {
 .hotels-catalog {
   color: #000000;
   background-color: #FFFFFF;
-  background-image: url("/images/catalog/filter.jpg");
-  background-size: 1200, 415;
+  background-image: url("../images/catalog/filter.jpg");
+  background-size: 1200px, 415px;
   background-repeat: no-repeat;
 }
 .breadcrumbs {
@@ -360,7 +360,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #333333;
   background-color: #F2F2F2;
 }
 .pagination {
