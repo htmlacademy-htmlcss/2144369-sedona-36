@@ -20,7 +20,10 @@ body {
   color: #000000;
   background-color: #F2F2F2;
 }
-
+.page-header {
+  color: #000000;
+  background-color: #FFFFFF;
+}
 .navigation-button {
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
@@ -81,6 +84,10 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
+.button-light {
+  color: #000000;
+  background-color: #FFFFFF;
+}
 .favorites-button {
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
@@ -110,7 +117,8 @@ body {
   text-decoration: none;
 }
 
-.main-index {
+.advantages {
+  font-family: "PT Sans", sans-serif;
   color: #000000;
   background-color: #FFFFFF;
 }
@@ -123,12 +131,12 @@ body {
   text-align: center;
 }
 .hero-title {
-  font-family: "inherit";
+  font-family: "PT Sans", sans-serif;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
   color: #000000;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   text-align: center;
   text-transform: uppercase;
 }
@@ -138,14 +146,15 @@ body {
   line-height: 26px;
   font-weight: 400;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   text-align: center;
 }
 .advantages-item {
+  font-family: "PT Sans", sans-serif;
   background-color: #83B3D3;
 }
 .advantages-title {
-  font-family: "inherit";
+  font-family: "PT Sans", sans-serif;
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
@@ -155,7 +164,7 @@ body {
   text-transform: uppercase;
 }
 .advantages-description {
-  font-family: "inherit";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
@@ -164,7 +173,7 @@ body {
   text-align: center;
 }
 .advantages-title-city {
-  font-family: "inherit";
+  font-family: "PT Sans", sans-serif;
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
@@ -174,7 +183,7 @@ body {
   text-transform: uppercase;
 }
 .advantages-description-city {
-  font-family: "inherit";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
@@ -182,11 +191,13 @@ body {
   background-color: #82B3D3;
   text-align: center;
 }
-.advantage-vacation-item {
-  background-color: #82B3D3;
+.advantages-service {
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+  background-color:#FFFFFF;
 }
 .advantage-vacation-title {
-  font-family: "inherit";
+  font-family: "PT Sans", sans-serif;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -196,7 +207,7 @@ body {
   text-transform: uppercase;
 }
 .advantage-vacation-description {
-  font-family: "inherit";
+  font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
@@ -204,8 +215,14 @@ body {
   background-color: #FFFFFF;
   text-align: center;
 }
-.advantage-vacation-title-service {
-  font-family: "inherit";
+.advantage-vacation-item {
+  background-color: #82B3D3;
+}
+.advantage-vacation-food {
+  background-color: #FFFFFF;
+}
+.advantage-vacation-title-food {
+  font-family: "PT Sans", sans-serif;
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
@@ -214,8 +231,26 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+.advantage-vacation-title-service {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #82B3D3;
+  text-align: center;
+  text-transform: uppercase;
+}
   .advantage-vacation-description-service {
-    font-family: "inherit";
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    background-color: #82B3D3;
+    text-align: center;
+  }
+  .advantage-vacation-description-food {
+    font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 21px;
     color: #333333;
@@ -223,10 +258,12 @@ body {
     text-align: center;
   }
   .search-hotel {
+    font-family: "PT Sans", sans-serif;
     text-align: center;
+    background-color:#FFFFFF;
   }
-  .search-hotel.advertising {
-    font-family: "inherit";
+  .search-hotel-1 {
+    font-family: "PT Sans", sans-serif;
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
@@ -236,7 +273,7 @@ body {
     text-transform: uppercase;
   }
   .search-hotel.info {
-    font-family: "inherit";
+    font-family: "PT Sans", sans-serif;
     font-size: 22px;
     line-height: 26px;
     font-weight: 400;
@@ -245,19 +282,20 @@ body {
     text-align: center;
   }
   .user-field {
-    background-color:#F2F2F2
+    background-color:#F2F2F2;
     text-align: center;
   }
   .subscribe {
     background-image: url("../images/sedona/subscribe.jpg");
-    background-size: 1200px 415px;
+    background-size: 1200px, 415px;
+    background-color:#FFFFFF;
     background-repeat: no-repeat;
   }
   .subscribe-catalog {
   background-color:#FFFFFF
   }
   .subscribe-title {
-    font-family: "inherit";
+    font-family: "PT Sans", sans-serif;
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
@@ -266,7 +304,7 @@ body {
     text-transform: uppercase;
   }
   .subscribe-title-catalog {
-    font-family: "inherit";
+    font-family: "PT Sans", sans-serif;
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
@@ -275,7 +313,7 @@ body {
     text-transform: uppercase;
   }
   .subscribe-info {
-    font-family: "inherit";
+    font-family: "PT Sans", sans-serif;
     font-size: 22px;
     line-height: 26px;
     font-weight: 400;
@@ -283,7 +321,7 @@ body {
     text-align: center;
   }
   .subscribe-info-catalog {
-    font-family: "inherit";
+    font-family: "PT Sans", sans-serif;
     font-size: 22px;
     line-height: 26px;
     font-weight: 400;
@@ -291,56 +329,84 @@ body {
     text-align: center;
   }
   .contacts-address-phone {
-    font-family: "inherit";
+    font-family: "PT Sans", sans-serif;
     line-height: 40px;
     font-size: 40px;
     color: #000000;
     background-color: #ffffff;
     text-align: center;
     text-transform: uppercase;
+    text-decoration: none;
   }
-  .inner-title {
+.inner-title {
+  font-family: "PT Sans", sans-serif;
   font-size: 60px;
   line-height: 78px;
   font-weight: 700;
   color: #FFFFFF;
 }
 .hotels-catalog {
+  font-family: "PT Sans", sans-serif;
   color: #000000;
   background-color: #FFFFFF;
   background-image: url("../images/catalog/filter.jpg");
-  background-size: 1200px 415px;
+  background-size: 1200px 815px;
   background-repeat: no-repeat;
 }
 .breadcrumbs {
   color: #FFFFFF;
 }
 .breadcrumbs-link {
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
+  text-decoration: none;
+}
+.control-input {
+  font-family: "PT Sans", sans-serif;
+  color: #FFFFFF;
 }
 .catalog-filter-title {
+  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
   color: #FFFFFF;
 }
 .catalog-filter-list {
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
   color: #FFFFFF;
 }
-.hotel-search-title {
-  font-size: 30px;
-  line-height: 36px;
+.sorting-container {
   color: #000000;
   background-color: #FFFFFF;
 }
-.hotel-search {
+.hotel-search-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
   color: #000000;
   background-color: #FFFFFF;
+  text-transform: uppercase;
+}
+.select-control {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+.hotel-list {
+  background-color: #FFFFFF;
+}
+.hotel-card-link {
+  background-color: #FFFFFF;
+  text-decoration: none;
 }
 .hotel-card-title {
   font-size: 24px;
@@ -370,6 +436,7 @@ body {
   font-weight: 400;
   color: #333333;
   background-color: #F2F2F2;
+  text-transform: uppercase;
 }
 .pagination {
   background-color: #ffffff;
@@ -383,5 +450,6 @@ body {
   font-weight: 700;
 }
 .page-footer {
+  font-family: "PT Sans", sans-serif;
   background-color: #ffffff;
 }
