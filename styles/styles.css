@@ -432,6 +432,7 @@ body {
   line-height: 20px;
   font-weight: 400;
   color: #333333;
+  background-color: #F2F2F2;
   text-transform: uppercase;
 }
 .pagination-link {
@@ -444,5 +445,5 @@ body {
   font-weight: 700;
 }
 .page-footer {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
