@@ -12,8 +12,14 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
-
+html {
+  height: 100%;
+}
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 24px;
   line-height: 28px;
@@ -34,6 +40,9 @@ body {
   background-color: #756157;
   text-transform: uppercase;
   text-decoration: none;
+  width: 160px;
+  margin: 0;
+  padding: 8px 34px;
 }
 .hotel-search-button {
   font-family: inherit;
@@ -45,6 +54,9 @@ body {
   background-color: #756157;
   text-transform: uppercase;
   text-decoration: none;
+  width: 276px;
+  margin: 0;
+  padding: 8px 50px;
 }
 .button-subscribe {
   font-family: inherit;
@@ -55,6 +67,13 @@ body {
   color: #FFFFFF;
   background-color: #82B3D3;
   text-transform: uppercase;
+  padding: 8px 50px;
+  border: none;
+}
+.subscribe-form {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
 }
 .button-apply {
   font-family: inherit;
@@ -107,7 +126,25 @@ body {
   background-color: #7DB54F;
   text-transform: uppercase;
 }
-
+.page-header-logo {
+width: 1060;
+padding: 0;
+margin: 0;
+}
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+.navigation-list {
+  width: 450px;
+  margin: 0;
+  padding: 0;
+}
+.navigation-user {
+  max-width: 310px;
+  margin-left: auto;
+}
 .navigation-link {
   font-size: 20px;
   line-height: 24px;
@@ -116,7 +153,17 @@ body {
   background-color: #FFFFFF;
   text-decoration: none;
 }
-
+.main-container {
+  flex-grow: 1;
+}
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.hero-img-welcome {
+  display: block;
+  margin: 0 auto;
+}
 .advantages {
   color: #000000;
   background-color: #FFFFFF;
@@ -137,6 +184,10 @@ body {
   background-color: #FFFFFF;
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  width: 620px;
+  margin-left: 290px;
 }
 .hero-description {
   font-size: 22px;
@@ -145,34 +196,58 @@ body {
   color: #333333;
   background-color: #FFFFFF;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 651px;
+  margin-left: 275px;
 }
-.advantages-item {
+.advantages-item-1 {
   background-color: #82B3D3;
+  width: 400px;
+  height: 385px;
+  display: flex;
 }
 .advantages-city {
   background-color: rgba(131, 179, 211, 0.12);
+  width: 400px;
+
 }
 .advantages-road {
   font-family: inherit;
   background-color: rgba(131, 179, 211, 0.2);
+  width: 400px;
+
+}
+.advantages-list {
+  margin: 0;
+  padding: 0;
 }
 .advantages-title {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
   color: #FFFFFF;
-  background-color: #82B3D3;
   text-align: center;
   text-transform: uppercase;
+  width: 175;
+  margin: 0;
+  padding: 103px 85px;
+  display: flex;
+
 }
 .advantages-description {
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
   color: #FFFFFF;
-  background-color: #82B3D3;
   text-align: center;
+  width: 230px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-self: stretch;
 }
+
 .advantages-title-city {
   font-size: 24px;
   line-height: 28px;
@@ -207,6 +282,25 @@ body {
   text-align: center;
   background-color:#FFFFFF;
 }
+.advantages-1 {
+  text-align: center;
+  background-color:#FFFFFF;
+}
+.advantages-list-1 {
+  display: flex;
+  justify-content: center;
+}
+.advantages-service-city {
+  display: flex;
+  justify-content: space-between;
+}
+.advantage-vacation-item {
+  background-color: rgba(131, 179, 211, 0.12);
+  width: 400px;
+  height: 385px;
+  margin: 0;
+  padding: 0;
+}
 .advantage-vacation-title {
   font-size: 30px;
   line-height: 36px;
@@ -215,6 +309,10 @@ body {
   background-color: #FFFFFF;
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  width: 505px;
+  margin-left: 348px;
 }
 .advantage-vacation-description {
   font-size: 22px;
@@ -223,9 +321,14 @@ body {
   color: #333333;
   background-color: #FFFFFF;
   text-align: center;
+  width: 490px;
+  margin-left: 355px;
 }
-.advantage-vacation-item {
-  background-color: rgba(131, 179, 211, 0.12);
+.advantage-vacation-food {
+  width: 400px;
+  height: 385px;
+  margin: 0;
+  padding: 0;
 }
 .advantage-vacation-title-food {
   font-size: 24px;
@@ -234,6 +337,9 @@ body {
   color: #000000;
   text-align: center;
   text-transform: uppercase;
+  width: 230px;
+  margin: 0;
+  padding: 0;
 }
 .advantage-vacation-title-service {
   font-size: 24px;
@@ -242,18 +348,25 @@ body {
   color: #000000;
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  width: 230px;
 }
   .advantage-vacation-description-service {
     font-size: 18px;
     line-height: 21px;
     color: #333333;
     text-align: center;
+    width: 230px;
+    margin: 0;
+    padding: 0;
   }
   .advantage-vacation-description-food {
     font-size: 18px;
     line-height: 21px;
     color: #333333;
     text-align: center;
+    width: 230px;
   }
   .search-hotel {
     text-align: center;
@@ -266,6 +379,10 @@ body {
     color: #000000;
     text-align: center;
     text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    width: 297px;
+    margin-left: 452px;
   }
   .search-hotel.info {
     font-size: 22px;
@@ -273,6 +390,10 @@ body {
     font-weight: 400;
     color: #333333;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 592px;
+    margin-left: 304px;
   }
   .user-field {
     font-family: inherit;
@@ -281,6 +402,11 @@ body {
     font-weight: 400;
     color: #000000;
     background-color:#F2F2F2;
+    width: 600px;
+    height: 60px;
+    padding: 12px 10px 12px 22px;
+    box-sizing: border-box;
+    border: none;
   }
   .subscribe {
     background-image: url("../images/sedona/subscribe.jpg");
@@ -298,6 +424,10 @@ body {
     color: #FFFFFF;
     text-align: center;
     text-transform: uppercase;
+    width: 404px;
+    margin: 0;
+    padding: 0;
+    margin-left: 398px;
   }
   .subscribe-title-catalog {
     font-size: 30px;
@@ -313,6 +443,10 @@ body {
     font-weight: 400;
     color: #FFFFFF;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 475px;
+    margin-left: 363px;
   }
   .subscribe-info-catalog {
     font-size: 22px;
@@ -446,4 +580,21 @@ body {
 }
 .page-footer {
   background-color: #FFFFFF;
+}
+.page-footer-container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+.social {
+  width: 142px;
+  margin-left: 70px;
+}
+.contact-us {
+  width: 331px;
+  margin-left: 237px;
+}
+.about-us {
+  width: 115px;
+  margin-left: 236px;
 }
