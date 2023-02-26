@@ -246,8 +246,7 @@ flex-direction: column-reverse;
 }
 .advantages-item-city {
   background-color: #82B3D3;
-  width: 1200px;
-  height: 385px;
+  flex-basis: 100%;
   align-self: stretch;
   display: flex;
 }
@@ -279,7 +278,16 @@ flex-direction: column-reverse;
   margin: 0;
   padding: 0;
   display: flex;
+  flex-basis: 100%;
   list-style-type: none;
+}
+.advantages-bridge-devil {
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  flex-basis: 100%;
 }
 .advantages-title {
   font-size: 24px;
@@ -304,7 +312,6 @@ flex-direction: column-reverse;
   height: 63px;
   margin: 0;
   padding: 0;
-
 }
 .advantages-bridge {
   background-color: #82B3D3;
@@ -387,10 +394,6 @@ flex-direction: column-reverse;
   text-align: center;
   background-color:#FFFFFF;
 }
-.advantages-list {
-  display: flex;
-  justify-content: center;
-}
 .advantages-service-city {
   margin: 0;
   padding: 0;
@@ -401,10 +404,10 @@ flex-direction: column-reverse;
   background-color: rgba(131, 179, 211, 0.12);
   width: 400px;
   height: 385px;
-  margin: 0;
-  padding: 0;
   flex-direction: column;
   justify-content: center;
+  margin: 0;
+  padding: 102px 85px;
 }
 .advantage-vacation-title {
   font-size: 30px;
@@ -432,10 +435,10 @@ flex-direction: column-reverse;
 .advantage-vacation-food {
   width: 400px;
   height: 385px;
-  margin: 0;
-  padding: 0;
   flex-direction: column;
   justify-content: center;
+  margin: 0;
+  padding: 102px 85px;
 }
 .advantage-vacation-title-food {
   font-size: 24px;
@@ -468,10 +471,10 @@ flex-direction: column-reverse;
     color: #333333;
     text-align: center;
     width: 100%;
-    height: 56px;
+    height: 63px;
     margin: 0;
     padding: 0;
-  }
+}
   .advantage-vacation-description-food {
     font-weight: 400;
     font-size: 18px;
@@ -482,7 +485,7 @@ flex-direction: column-reverse;
     height: 63px;
     margin: 0;
     padding: 0;
-  }
+}
   .search-hotel {
     text-align: center;
     background-color:#FFFFFF;
